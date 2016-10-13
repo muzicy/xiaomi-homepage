@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+div.topnavigator {height:50px;width:1920px;background-color:#000;font-family:Verdana, Geneva, sans-serif;
+                  font-size:14px;color:#999;position:absolute;left:0;top:0;overflow:hidden;}
+div.topnavigator #span1 {padding:0;margin:0;}
+div.topnavigator span ul li {list-style:none;display:inline-block;line-height:18px;padding:5px 10px 5px 0; border-right:1px dotted #666;height:30px;}
+div.topnavigator #span2 {left:1550px;top:0;position:absolute;}
+div.topnavigator span1 ul li {list-style:none;display:inline-block;line-height:4px;padding-right:8px;}
+#llast1 {border-right:0;}
+#llast2 {border-right:0;}
+.shopcar {width:150px;height:50px;left:1770px;top:0;position:absolute;background-color:#666;line-height:4px;overflow:hidden;padding:30px;}
+li a:hover {cursor:pointer;color:#FFF;}
+.shopcarblank {background-color:#FFF;color:red;border:none;}
+.blankShopcar {position:absolute;top:50px;left:1620px;width:300px;height:100px;backgorund-color:white;display:none;z-index:2000;
+               box-shadow:-0.5px 0.5px #FCC;font-size:14px;vertical-align:middle;line-height:100px;}
+			   

@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin:0;padding:0;}
+
+div.all {position:relative;width:100%;height:100%;top:0;left:0;}
+li a:hover {cursor:pointer;}
+a:link {text-decoration:none;color:black;} 
+ul li{list-style:none;} 
+div.topnavigator {position:relative;height:50px;width:100%;background-color:#000;font-family:Verdana, Geneva, sans-serif;
+                  font-size:12px;color:#999;left:0;top:0;}
+div.topnavigator div.overall_style {position:absolute;left:15%;top:0;width:1160px;height:50px;}
+div.topnavigator span ul {margin-top:15px;}
+div.topnavigator #span1 {left:0;margin-top:auto;position:absolute;overflow:hidden;}
+div.topnavigator span ul li {display:inline-block;line-height:18px;padding:5px 3px 5px 0; height:30px;}
+div.topnavigator span ul li a {border-right:1px dashed #666;padding-right:10px;}
+div.topnavigator #span2 {left:800px;top:0;position:absolute;display:inline-block;}
+div.topnavigator span1 ul li {list-style:none;display:inline-block;line-height:4px;padding-right:2px;}
+#llast1 {border-right:0;}
+#llast2 {border-right:0;}
+.shopcar {width:160px;height:50px;left:1000px;top:0;position:absolute;background-color:#666;line-height:50px;overflow:hidden;text-align:center;}
+#span1 li  a:hover,#span2 li a:hover {color:#FFF;}
+.shopcarblank {background:rgb(255,255,255);color:red;border:none;}
+.blankShopcar {background:rgba(255,255,255,1);position:absolute;top:50px;left:1130px;width:315px;height:100px;display:none;z-index:2000;
+               box-shadow:-0.5px 0.5px #FCC;font-size:14px;vertical-align:middle;text-align:center;line-height:100px;border:0.3px solid #FCF;border-top:none;}

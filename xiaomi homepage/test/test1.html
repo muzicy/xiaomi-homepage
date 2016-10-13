@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">  
+<html>  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">  
+<title></title>  
+<style type="text/css">  
+*{  
+margin:0;  
+padding:0;  
+}  
+#container{  
+height:auto;  
+width:553px;  
+border:1px solid #ccc;  
+position:relative;  
+margin:100px auto;  
+}  
+#content{  
+height:266px;  
+width:400px;  
+position:relative;  
+background:#F00;  
+float:left;  
+}  
+#content p{  
+color:#fff;  
+padding:10px;  
+height:30px;  
+width:380px;  
+position:absolute;  
+left:0;  
+bottom:0;  
+}  
+#content p:nth-child(1){  
+z-index:2;  
+}  
+#content p:nth-child(even){  
+background:#000;  
+opacity:0.5;  
+}  
+#menu{  
+height:160px;  
+width:153px;  
+float:right;  
+}  
+#menu ul{  
+height:100%;  
+width:100%;  
+}  
+#menu ul li{  
+text-align:center;  
+background:#F6F6F6;  
+position:relative;  
+list-style:none;  
+display:block;  
+height:65px;  
+width:153px;  
+border-bottom:1px solid #ccc;  
+}  
+  
+#menu ul li:last-child{  
+height:68px;  
+border:none;  
+}  
+#menu ul li a{  
+text-decoration:none;  
+color:#000;  
+text-align:center;  
+line-height:65px;  
+font-size:16px;  
+}  
+#menu ul li a:hover{  
+color:#f00;  
+}  
+span{  
+z-index:2;  
+height:0;  
+width:0;  
+border-color:transparent #f6f6f6 transparent transparent;  
+border-width:33px;  
+border-style:solid;  
+}  
+.one{  
+position:absolute;  
+top:0px;  
+left:-66px;  
+}  
+img{  
+border:none;  
+}  
+  
+</style>  
+<script type="text/javascript">   
+window.onload=function(){   
+var obj=document.getElementsByTagName('li');/*获取id为menu的容器中的所有li元素*/   
+var con=document.getElementById('content').getElementsByTagName('img')[0];/*获取content里面出现的第一个img对象*/   
+var hreff=document.getElementById('content').getElementsByTagName('a')[0];   
+var hrefLink=new Array('http://www.baidu.com','http://weibo.com/2622932383/profile?topnav=1&wvr=5','http://www.taobao.com','http://google.com.hk')/*存所有连接的数组*/   
+var words=new Array('我的小破车','杂草丛生，是希望','小伙伴在张望','钢索通向远方');/*每张图片的解说词存放在数组里*/   
+var pContent=document.getElementById('content').getElementsByTagName('p')[0];/*获取存放解说词的p元素*/   
+var i=0;   
+for(i=0;i<obj.length;i++)   
+{   
+obj[i].index=i;   
+obj[i].onmouseover=function(){   
+con.src='images/photo'+(this.index+1)+'.jpg';   
+pContent.innerHTML=words[this.index];   
+hreff.href=hrefLink[this.index];   
+}   
+}   
+}   
+</script>   
+</head>  
+  
+<body>  
+<div id="container">  
+<div id="content">  
+<p>我的小破车</p>  
+<p></p>  
+<a href="http://www.baidu.com">  
+<img src="images/photo1.jpg" width="400" height="266"/>  
+</a>  
+</div>  
+<div id="menu">  
+<ul>  
+<li><a href="#">语文详解</a><span class="one"></span></li>  
+<li><a href="#">数学详解</a><span class="one"></span></li>  
+<li><a href="#">php进阶</a><span class="one"></span></li>  
+<li><a href="#">c++恶补</a><span class="one"></span></li>  
+</ul>  
+</div>  
+<div style="clear:both;"></div>  
+</div>  
+</body>  
+</html> <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+</body>
+</html>
