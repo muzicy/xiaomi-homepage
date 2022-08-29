@@ -9,6 +9,7 @@ function getStyle(obj,name){
   }
 }
 
+// 注释1
 
 function startMove(obj,json,end){
 	

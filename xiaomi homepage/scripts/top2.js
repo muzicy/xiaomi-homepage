@@ -1,4 +1,6 @@
 // JavaScript Document
+
+// 注释。。。
 var ct1=document.getElementById("content1"),
     left2=ct1.getElementsByClassName("left2")[0],
 	left2_ul=document.getElementById("left2_nav"),
